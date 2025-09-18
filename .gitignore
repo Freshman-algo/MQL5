@@ -1,0 +1,37 @@
+# Mark21 Razor repository layout
+# Track only Mark21 advisors and Razor modules under MQL5.
+
+# Ignore everything by default
+*
+
+# Allow repo metadata and documentation
+!/.gitignore
+!/README.md
+!/LICENSE
+
+# Allow project sources
+!/Experts/
+!/Experts/Advisors/
+!/Experts/Advisors/Mark21/
+!/Experts/Advisors/Mark21/**
+!/Include/
+!/Include/Modules/
+!/Include/Modules/**
+!/Include/CoreUtils_Razor.mqh
+!/Include/TradeEngine_Razor.mqh
+!/Presets/
+!/Presets/**
+!/docs/
+!/docs/**
+
+# Ignore compiled outputs and temp files
+*.ex5
+*.ex4
+*.mqproj
+*.tmp
+*.log
+*~
+
+# OS cruft
+.DS_Store
+Thumbs.db
