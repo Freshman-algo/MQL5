@@ -10,6 +10,8 @@
 #include <Modules/CoreUtils_Razor.mqh>
 #include <Modules/LightPanel_Razor.mqh>
 #include <Modules/TesterCore_Razor.mqh>
+#include <Modules/Coredebug_Razor.mqh>
+
 
 
 //---------------- Optimizer-friendly market mode -------------------
