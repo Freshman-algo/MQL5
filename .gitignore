@@ -17,8 +17,6 @@
 !/Include/
 !/Include/Modules/
 !/Include/Modules/**
-!/Include/CoreUtils_Razor.mqh
-!/Include/TradeEngine_Razor.mqh
 !/Presets/
 !/Presets/**
 !/docs/
